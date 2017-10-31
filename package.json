@@ -1,0 +1,21 @@
+{
+  "name": "jean-control",
+  "version": "1.0.0",
+  "description": "Abstract class for all html controls within jean environment",
+  "main": "dist/jean-control.js",
+  "scripts": {
+    "test": "open spec/spec-runner.html in browser"
+  },
+  "keywords": [],
+  "author": "Jeremias Andris",
+  "license": "MIT",
+  "dependencies": {
+    "jean-amd": "1.0.2",
+    "jean-type-check": "1.0.2",
+    "jquery": "3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/je-an/jean-control.git"
+  }
+}
