@@ -18,8 +18,8 @@ define(["jquery", "TypeCheck"], function ($, TypeCheck) {
         if (!TypeCheck.isObject(options) && !TypeCheck.isObject(defaultOptions)) {
             throw new TypeError("options or defaultOptions are not vaild");
         }
-        if (!TypeCheck.isString(defaultOptions.containerId)) {
-            throw new TypeError("defaultOptions.containerId must be provided!");
+        if (!TypeCheck.isString(defaultOptions.containerId) && !TypeCheck.isString(options.containerId)) {
+            throw new TypeError("containerId must be provided!");
         };
         // Fuses the user provided options with the default options of the control
         this._options = $.extend(true, defaultOptions, options);
