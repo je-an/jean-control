@@ -1,6 +1,6 @@
 {
   "name": "jean-control",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Abstract class for all html controls within jean environment",
   "main": "dist/jean-control.js",
   "scripts": {
